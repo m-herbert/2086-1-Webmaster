@@ -1,0 +1,183 @@
+
+
+h1 {
+ Margin: 0;
+ margin-top: 0;
+ font-family: "Playfair Display", serif;
+}
+
+p1 {
+ font-family: "montserrat", serif;
+}
+
+p2 {
+ font-family: "Open Sans", san-serif;
+}
+
+p3 {
+ font-family: "Lora", serif;
+}
+
+
+p4 {
+ font-family: "Roboto", san-serif;
+}
+
+.text-column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px; 
+}
+
+.row {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  gap: 15px; 
+}
+
+
+
+
+ 
+
+#Home {
+  background-image: linear-gradient(to bottom, #62A9F9, #3E6CA2);
+  background-attachment: fixed;
+}
+
+#Parks {
+ background-image: linear-gradient(to bottom, #7CFC00,#808000);
+  background-attachment: fixed;
+}
+
+
+
+#MyHS {
+background-image: linear-gradient(to bottom, #FFFFFF,#B9D9EB,#174ddf);
+  background-attachment: fixed;
+}
+
+#TheirHS {
+background-image: linear-gradient(to bottom, #FFD700,#000080);
+  background-attachment: fixed;
+}
+
+#FrHead {
+ border-style: groove;
+ color: #1900FF;
+ background-color: white;
+ text-align: center;
+ padding-top: 15px;
+ padding-bottom: 30px;
+ text-shadow: 1px 1px black;
+}
+
+#TurkeySwampTitle {
+ border-style: solid;
+ color: #1F6357;
+ background-color:#5CA904;
+ text-align: center;
+ padding-top: 15px;
+ padding-bottom: 30px;
+ text-shadow: 1px 1px black;
+}
+
+#ThatOtherOne {
+ border-style: solid;
+ color: #FFFFFF;
+ background-color:#5CA904;
+ text-align: center;
+ padding-top: 15px;
+ padding-bottom: 30px;
+ text-shadow: 1px 1px black;
+} 
+
+#School2 {
+ border-style: solid;
+ color: #FFFFFF;
+ background-color:#C27E79;
+ text-align: center;
+ padding-top: 15px;
+ padding-bottom: 30px;
+ text-shadow: 1px 1px black;
+} 
+
+#School1 {
+ border-style: solid;
+ color: #00008B;
+ background-color:#87CEEB;
+ text-align: center;
+ padding-top: 15px;
+ padding-bottom: 30px;
+ text-shadow: 1px 1px black;
+} 
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F0DC82;
+  justify-content: center;
+}
+
+ul.navbar li {
+  float: center;
+  position: relative;
+}
+
+ul.navbar li a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navbar li a:hover {
+  background-color: #FFBF00;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #FFD700;
+  min-width: 160px;
+  z-index: 1;
+}
+
+
+.dropdown-content li {
+  float: none;
+}
+
+.dropdown-content li a {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+.Header {
+ width: 100%;
+ height: 250px;
+ overflow: hidden;
+ display: block;
+
+}
+
+.Header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
